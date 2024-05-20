@@ -1,0 +1,21 @@
+nav{
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: firebrick;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a{
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+  }
+  .link-container .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
