@@ -3,7 +3,7 @@ import Fish from "./Fish.jsx";
 
 function FishesPage() {
 
-    const fishes = useSelector(state => state.fish);
+    const fishes = useSelector(state => state.fish.results);
 
     return (
         <>

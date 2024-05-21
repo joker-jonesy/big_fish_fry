@@ -76,3 +76,21 @@ position: fixed;
   }
 
 }
+
+.modal{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 110;
+  background-color: rgba(108, 0, 0, 0.75);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+
+  img{
+    width: 200px;
+  }
+}
